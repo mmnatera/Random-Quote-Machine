@@ -1,0 +1,116 @@
+/* Background */
+
+body {
+  background: url(https://static.pexels.com/photos/257360/pexels-photo-257360.jpeg)
+    no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: none;
+  -o-background-size: none;
+  background-size: none;
+}
+
+header {
+	display: inline-block;   			
+}
+
+/* Body */
+html {
+  margin: 40px auto;
+  text-align: center;
+  color: white;
+}
+
+
+.btn-default {
+  display: inline-block;
+  border: 2px grey;
+  background-color: #c0c0c0;
+  background: rgba(204, 204, 204, 0.5);
+  font-weight: 900;
+  padding: 4px 4px;
+  margin-right: 4px; 
+  color: white;
+  font-size: 1.2em;
+  
+}
+
+::after
+.quote { 
+  display: inline-block;
+  text-align: center;
+  font-style: Verdana;
+  background-color: grey;
+  margin-left: 40px;
+  margin-right:40px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0.90;
+     
+}
+
+.inside {
+  display: inline-block;
+  font-size: 20px;
+  font-style: italic;
+  margin-left: 32px;
+  margin-right: 32px;
+  font-family: Georgia, serif;
+  color: white;
+  font-weight: 600;
+}
+
+.inside p em {
+	font-size: 1.2 em;
+}
+
+
+.btn-default:hover, .btn-default:active, .btn-default:focus {
+	
+	color: #00aced;
+	border-color: #051938;
+  font-size: 3 em;   
+}
+
+.fa-twitter {
+	height: 2%;
+	margin: 2%;
+
+}
+
+.social-icons {
+  padding: 6px 12px;
+  display: inline-block;
+}
+
+.social-icons .fa {
+  font-size: 1.8em;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons .fa-twitter {
+  background-color: #00aced;
+  border-color: none;
+  height: 40px;
+}
+
+
+.container {
+    position: relative;
+    border: 3px solid #fcf9f4;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 300px;
+    padding: 10px 0px 0px 5px;
+    background-color: gray;
+    opacity: 0.90;
+    margin: auto;
+
+}
+
